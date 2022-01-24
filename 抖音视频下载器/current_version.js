@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         网页抖音视频下载器test
+// @name         网页抖音视频下载器
 // @icon         https://lf1-cdn-tos.bytegoofy.com/goofy/ies/douyin_web/public/favicon.ico
 // @version      1.3
 // @description  插入当前视频的下载按钮

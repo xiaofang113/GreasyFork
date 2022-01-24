@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         网页抖音视频下载器
+// @name         网页版抖音视频下载器
 // @icon         https://lf1-cdn-tos.bytegoofy.com/goofy/ies/douyin_web/public/favicon.ico
-// @version      test
-// @description  插入当前视频的下载按钮
+// @version      1.3
+// @description  插入当前页视频的下载按钮
 // @author       xiaofang
 // @match        *://www.douyin.com/*
 // @grant        none

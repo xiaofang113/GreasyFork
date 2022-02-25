@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         网页版抖音视频下载器Aria2-test
+// @name         网页版抖音视频下载器Aria2-1.0
 // @icon         https://lf1-cdn-tos.bytegoofy.com/goofy/ies/douyin_web/public/favicon.ico
 // @version      1.0
 // @description  点击抖音页面右侧头像下方的下载按钮即可推送至Aria2下载，确保Aria2已启用！！！

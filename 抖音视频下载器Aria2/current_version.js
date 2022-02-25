@@ -7,7 +7,7 @@
 // @match        *://www.douyin.com/*
 // @grant        none
 // @require      http://code.jquery.com/jquery-1.11.0.min.js
-// @namespace    https://greasyfork.org/zh-CN/scripts/438928
+// @namespace    https://greasyfork.org/zh-CN/scripts/440582
 // @supportURL   https://github.com/xiaofang113/GreasyFork/blob/main/%E6%8A%96%E9%9F%B3%E8%A7%86%E9%A2%91%E4%B8%8B%E8%BD%BD%E5%99%A8Aria2/current_version.js
 // @homepageURL  https://github.com/xiaofang113/GreasyFork/blob/main/%E6%8A%96%E9%9F%B3%E8%A7%86%E9%A2%91%E4%B8%8B%E8%BD%BD%E5%99%A8Aria2/current_version.js
 // ==/UserScript==

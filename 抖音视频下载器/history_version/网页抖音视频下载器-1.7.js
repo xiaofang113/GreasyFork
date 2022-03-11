@@ -15,7 +15,7 @@
 (function(){
 console.log("脚本启动成功");
 window.onload = function(){
-$("head").prepend("<script>function tishi(){$('.DownloadURL path').attr('style','fill:#00CCFF');$('.tishi1').show();$('.tishi2').show();setTimeout(function(){$('.tishi1').hide();$('.tishi2').hide();},1000);};function download1(){$('.swiper-slide-active video').children().each(function(){var downloadURL= $(this).attr('src');console.log(downloadURL);if(downloadURL.length>10){window.open(downloadURL);tishi();};return false;});};function download3(){$('.xg-video-container video').children().each(function(){var downloadURL= $(this).attr('src');console.log(downloadURL);if(downloadURL.length>10){window.open(downloadURL);tishi();};return false;});};function download4(){var downloadURL=$('.xg-video-container video').attr('src');console.log(downloadURL);if(downloadURL.length>10){window.open(downloadURL);tishi();};};</script>");
+$("head").prepend("<script>function tishi(){$('.DownloadURL path').attr('style','fill:#00CCFF');$('.tishi1').show();$('.tishi2').show();setTimeout(function(){$('.tishi1').hide();$('.tishi2').hide();},1000);};function download1(){$('.swiper-slide-active video').children().each(function(){var downloadURL= $(this).attr('src');console.log(downloadURL);if(downloadURL.length>10){window.open(downloadURL);tishi();};return false;});};function download2(){var downloadURL=$('.swiper-slide-active video').attr('src');console.log(downloadURL);if(downloadURL.length>10){window.open(downloadURL);tishi();};};function download3(){$('.xg-video-container video').children().each(function(){var downloadURL= $(this).attr('src');console.log(downloadURL);if(downloadURL.length>10){window.open(downloadURL);tishi();};return false;});};function download4(){var downloadURL=$('.xg-video-container video').attr('src');console.log(downloadURL);if(downloadURL.length>10){window.open(downloadURL);tishi();};};</script>");
 $(".YwClj8rK #fullscreen_capture_feedback").next().prepend('<div class="Y58u3RjO aeP91Vml tishi1" style="display: none;">下载成功</div>');
 $(".XW6jLhS3").prepend('<div class="Y58u3RjO GDIQIpUY tishi2" style="display: none;">下载成功</div>');
 setInterval(function(){
@@ -31,7 +31,7 @@ setInterval(function(){
     if (aaa=="true"){
         $('.swiper-slide-active .OFZHdvpl').children().each(function(index,element){
             if(index==0){
-                $(this).after('<div class="DownloadURL" onclick="download1()"><div class="NRiH5zYV"><div class="pBxTZJeH Qz1xVpFH"><div class="tzVl3l7w"><svg width="42" height="36" xmlns="http://www.w3.org/2000/svg" class="" viewBox="0 0 36 36"><path d="M23 14l-8 8-8-8h5v-12h6v12zM15 22h-15v8h30v-8h-15zM28 26h-4v-2h4v2z"></path></svg></div><div class="hfgGrUTS">下载</div></div></div></div>');
+                $(this).after('<div class="DownloadURL" onclick="download1();download2()"><div class="NRiH5zYV"><div class="pBxTZJeH Qz1xVpFH"><div class="tzVl3l7w"><svg width="42" height="36" xmlns="http://www.w3.org/2000/svg" class="" viewBox="0 0 36 36"><path d="M23 14l-8 8-8-8h5v-12h6v12zM15 22h-15v8h30v-8h-15zM28 26h-4v-2h4v2z"></path></svg></div><div class="hfgGrUTS">下载</div></div></div></div>');
                 return false;
             };
         });

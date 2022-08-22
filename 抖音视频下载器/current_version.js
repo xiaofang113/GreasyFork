@@ -26,9 +26,9 @@ $("head").prepend(`
     };
     function download1(){
         var filename=$('.swiper-slide-active .account-name').text()+'：'+$('.swiper-slide-active .UCT89JiM .Nu66P_ba').text().replace(/[\\/:*?\"<>|\\n]/g,'');
-        var imgs = document.evaluate('//*[@class="swiper-slide ARBi5fd6 swiper-slide-active"]//*[@class="swiper-slide swiper-slide-active"]/div/img/@src',document).iterateNext();
+        var imgs = document.evaluate('//*[@class="swiper-slide ARBi5fd6 page-recommend-container swiper-slide-active"]//*[@class="swiper-slide swiper-slide-active"]/div/img/@src',document).iterateNext();
         if(imgs){
-            document.evaluate('//*[@class="swiper-slide ARBi5fd6 swiper-slide-active"]//*[@class="swiper-slide swiper-slide-active"]/button',document).iterateNext().click()
+            document.evaluate('//*[@class="swiper-slide ARBi5fd6 page-recommend-container swiper-slide-active"]//*[@class="swiper-slide swiper-slide-active"]/button',document).iterateNext().click()
             downloadfile(imgs.value,filename+'.jpg');tishi();
         }else{
             $('.swiper-slide-active video').children().each(function(){

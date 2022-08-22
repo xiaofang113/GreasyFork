@@ -46,7 +46,7 @@ $("head").prepend(`
     };
     function getimg() {
         var imgs = [];
-        var result = document.evaluate('//*[@class="swiper-slide ARBi5fd6 swiper-slide-active"]//*[@class="swiper-slide swiper-slide-active"]/parent::div/*/div/img/@src', document);
+        var result = document.evaluate('//*[@class="swiper-slide ARBi5fd6 page-recommend-container swiper-slide-active"]//*[@class="swiper-slide swiper-slide-active"]/parent::div/*/div/img/@src', document);
         var img = result.iterateNext();
         while (img) {
             imgs.push(img.value);

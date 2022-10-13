@@ -68,7 +68,7 @@ $("head").prepend(`
         var filename = $('.swiper-slide-active .account-name').text() + '：' + $('.swiper-slide-active .UCT89JiM .Nu66P_ba').text().replace(/[\\/:.*?\"<>|\\n]/g, '').trim();
         var imgs = getimg1();
         if (imgs.length > 0) {
-            download_JPG(aria2_url, filepath1, filename, imgs);
+            download_JPG(aria2_url, filepath, filename, imgs);
             tishi();
         } else {
             $('.swiper-slide-active video').children().each(function () {
@@ -84,7 +84,7 @@ $("head").prepend(`
         var filename = $('.DWKLQwFX .account-name').text() + '：' + $('.DWKLQwFX .UCT89JiM .Nu66P_ba').text().replace(/[\\/:.*?\"<>|\\n]/g, '').trim();
         var imgs = getimg2();
         if (imgs.length > 0) {
-            download_JPG(aria2_url, filepath1, filename, imgs);
+            download_JPG(aria2_url, filepath, filename, imgs);
             tishi();
         } else {
             $('.DWKLQwFX video').children().each(function () {

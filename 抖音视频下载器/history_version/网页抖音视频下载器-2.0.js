@@ -90,7 +90,7 @@ setInterval(function(){
     };
     if (aaa==false){
         const targetElement = document.evaluate('//div[@data-e2e="feed-active-video"]//*[@class="OFZHdvpl immersive-player-switch-on-hide-interaction-area"]/div[1]', document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
-        targetElement.insertAdjacentHTML('afterend', '<div class="DownloadURL" onclick="download1()"><div class="NRiH5zYV"><div class="pBxTZJeH Qz1xVpFH"><div class="tzVl3l7w"><svg width="54" height="36" xmlns="http://www.w3.org/2000/svg" class="" viewBox="0 0 36 36"><path d="M23 14l-8 8-8-8h5v-12h6v12zM15 22h-15v8h30v-8h-15zM28 26h-4v-2h4v2z"></path></svg></div><div class="hfgGrUTS">下载</div></div></div></div>');
+        targetElement.insertAdjacentHTML('afterend', '<div class="DownloadURL" onclick="download1()"><div class="NRiH5zYV"><div class="pBxTZJeH Qz1xVpFH"><div class="tzVl3l7w"><svg width="49" height="35" xmlns="http://www.w3.org/2000/svg" class="" viewBox="0 0 30 35"><path d="M23 14l-8 8-8-8h5v-12h6v12zM15 22h-15v8h30v-8h-15zM28 26h-4v-2h4v2z"></path></svg></div><div class="hfgGrUTS">下载</div></div></div></div>');
         aaa==true;
     };
 },1000);
